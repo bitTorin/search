@@ -27,16 +27,15 @@
           </div>
           <form action="https://google.com/search" class="mx-auto" autocomplete="off" style="padding-top: 25px">
             <center>
-              <div style="display: flex">
-                <input id="searchbar" class="mx-auto form-control" style="width: 50vw; border-radius: 24px; height: 46px; display: flex" type="text" name="q">
+              <div class="input-group" style="display: flex">
+                <input id="image-searchbar" class="mx-auto form-control py-2 border-right-0 border" style="width: 50vw; border-radius: 24px; height: 46px; display: flex" type="text" name="q">
                 <input type="hidden" name="tbm" value="isch">
-                <button style="display: flex; flex: 1 0 auto" type="submit" value="Google Image Search">
-                  <div id="icon">
-                    <span id="nested-icon"><i class="fas fa-search"></i></span>
-                  </div>
-                </button>
+                <span class="input-group-append">
+                  <button style="margin-left: -50px; z-index: 3; cursor: pointer" class="border-0 bg-transparent" type="submit">
+                    <i class="fas fa-search" style="color: #4285f4;"></i>
+                  </button>
+                </span>
               </div>
-              <input style="margin-top: 25px" type="submit" value="Google Image Search">
             </center>
           </form>
         </div>
