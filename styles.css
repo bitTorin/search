@@ -1,15 +1,9 @@
 body {
   font-family: arial, sans-serif;
   font-size: 16px;
-  min-height: 100%;
+  height: 100%;
   position: relative;
   text-decoration-color: #222;
-}
-
-.breakline {
-  border-bottom-color: rgb(235, 235, 235);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
 }
 
 .btn {
