@@ -17,8 +17,40 @@
         </li>
       </ul>
       <form action="https://google.com/search">
-          <input type="text" name="q">
-          <input type="submit" value="Google Search">
+        <h6>Find pages with...</h6>
+        <div class="row g-3 align-items center">
+          <div class="col-auto">
+            <label for="" class="col-form-label">all these words:</label>
+          </div>
+          <div>
+            <input type="text" name="as_q">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-auto">
+            <label for="" class="col-form-label">this exact word or phrase:</label>
+          </div>
+          <div>
+            <input type="text" name="as_epq">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-auto">
+            <label for="" class="col-form-label">any of these words:</label>
+          </div>
+          <div>
+            <input type="text" name="as_oq">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-auto">
+            <label for="" class="col-form-label">none of these words:</label>
+          </div>
+          <div>
+            <input type="text" name="as_eq">
+          </div>
+        </div>
+        <input type="submit" value="Google Advanced Search">
       </form>
     </body>
 </html>
