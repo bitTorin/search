@@ -31,6 +31,14 @@ a:hover {
   text-indent: 20px;
 }
 
+#icon {
+  background: none;
+  color: #4285f4;
+  height: 24px;
+  width: 24px;
+  margin: auto;
+}
+
 #images {
   color: #4285f4;
   font: 16px/16px arial, sans-serif;
@@ -42,6 +50,15 @@ a:hover {
 
 #logo {
   background: url(googlelogo_color_272x92dp.png) no-repeat;
+}
+
+#nested-icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  width: 24px;
 }
 
 .row {
