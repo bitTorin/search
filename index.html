@@ -7,7 +7,7 @@
 
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link href="../static/styles.css" rel="stylesheet">
+      <link href="styles.css" rel="stylesheet">
 
       <title>Search</title>
     </head>
@@ -21,14 +21,16 @@
         </li>
       </ul>
       <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
-        <form action="https://google.com/search">
+        <form action="https://google.com/search" class="mx-auto">
           <center>
-            <input class="mx-auto" style="width: 50vw; border-radius: 23px; height: 46px" type="text" name="q">
+            <div>
+              <input id="searchbar" class="mx-auto" style="width: 50vw; border-radius: 24px; height: 46px" type="text" name="q">
+            </div>
           </center>
           <div style="height: 20px"></div>
           <center>
-            <input style="margin: 11px 4px" type="submit" value="Google Search">
-            <input style="margin: 11px 4px" type="submit" value="I'm Feeling Lucky">
+            <input style="margin: 11px 4px" type="submit" name="btnK" value="Google Search">
+            <input style="margin: 11px 4px" type="submit" name="btnI" value="I'm Feeling Lucky">
           </center>
         </form>
       </div>
