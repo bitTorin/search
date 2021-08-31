@@ -54,6 +54,14 @@ a:hover {
   text-indent: 20px;
 }
 
+#image-searchbar:focus {
+  box-shadow: 0 1px 6px rgba(32,33,36,.28) !important;
+}
+
+#image-searchbar:hover {
+  box-shadow: 0 1px 6px rgba(32,33,36,.28) !important;
+}
+
 #logo {
   background: url(googlelogo_color_272x92dp.png) no-repeat;
 }
@@ -78,12 +86,7 @@ a:hover {
   text-indent: 20px;
 }
 
-#searchbar:focus {
-  border: 1px solid #dfe1e5 !important;
-  border-color:rgba(223,225,229,0) !important;
-  box-shadow: 0 1px 6px rgba(32,33,36,.28) !important;
-  text-indent: 20px;
-}
+
 
 #searchbutton {
   background-color: #f8f9fa;
