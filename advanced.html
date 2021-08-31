@@ -17,17 +17,17 @@
         <a class="nav-link active" href="index.html">Google Search</a>
       </li>
     </ul>
-    <h4>Advanced Search</h4>
-    <div class="breakline"></div>
+    <h4 style="margin-left: 35px; color: #d93025">Advanced Search</h4>
+    <hr>
     <form action="https://google.com/search">
-      <div class="container">
-        <h6>Find pages with...</h6>
+      <div class="container" style="margin-left: 20px">
+        <h6 style="font-size: 17px">Find pages with...</h6>
         <div class="row">
           <div class="col-3">
             <label for="" class="col-form-label">all these words:</label>
           </div>
           <div class="col-8">
-            <input type="text" name="as_q">
+            <input type="text" name="as_q" style="width: 400px">
           </div>
         </div>
         <div class="row">
@@ -35,7 +35,7 @@
             <label for="" class="col-form-label">this exact word or phrase:</label>
           </div>
           <div class="col-8">
-            <input type="text" name="as_epq">
+            <input type="text" name="as_epq" style="width: 400px">
           </div>
         </div>
         <div class="row">
@@ -43,7 +43,7 @@
             <label for="" class="col-form-label">any of these words:</label>
           </div>
           <div class="col-8">
-            <input type="text" name="as_oq">
+            <input type="text" name="as_oq" style="width: 400px">
           </div>
         </div>
         <div class="row">
@@ -51,11 +51,16 @@
             <label for="" class="col-form-label">none of these words:</label>
           </div>
           <div class="col-8">
-            <input type="text" name="as_eq">
+            <input type="text" name="as_eq" style="width: 400px">
           </div>
         </div>
+        <div class="row" style="margin-top: 15px">
+          <div class="col-5"></div>
+          <input class="btn btn-primary" style="margin-left: 80px" type="submit" value="Advanced Search">
+        </div>
+
       </div>
-      <input class="btn btn-primary" type="submit" value="Google Advanced Search">
+
     </form>
   </body>
 </html>
