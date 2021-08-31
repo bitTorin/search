@@ -31,6 +31,19 @@ a:hover {
   text-indent: 20px;
 }
 
+#images {
+  color: #4285f4;
+  font: 16px/16px arial, sans-serif;
+  position: relative;
+  left: 215px;
+  top: 76px;
+  white-space: nowrap;
+}
+
+#logo {
+  background: url(googlelogo_color_272x92dp.png) no-repeat;
+}
+
 .row {
   height: 42px;
 }
