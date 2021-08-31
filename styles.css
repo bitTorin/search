@@ -48,13 +48,19 @@ a:hover {
   white-space: nowrap;
 }
 
+#image-searchbar {
+  border: 1px solid #dfe1e5;
+  border-color:rgba(223,225,229,0);
+  text-indent: 20px;
+}
+
 #logo {
   background: url(googlelogo_color_272x92dp.png) no-repeat;
 }
 
 #nested-icon {
   display: inline-block;
-  fill: currentColor;
+  fill: #4285f4;
   height: 24px;
   line-height: 24px;
   position: relative;
